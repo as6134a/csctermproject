@@ -1,3 +1,4 @@
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -45,6 +46,16 @@
   .header-right {
     float: none;
   }
+}
+.paragraph {
+	width: 50%;
+	margin: auto;
+}
+h2{
+	text-align: center;
+}
+h4 {
+	text-align: center;
 }
 .footer {
     position: fixed;
