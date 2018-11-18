@@ -1,3 +1,13 @@
+.footer {
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d9d9d9;
+  color: #0d0d0d;
+  text-align: center;
+
+}
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -46,12 +56,25 @@
     float: none;
   }
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
+.paragraph {
+	width: 50%;
+	margin: auto;
+}
+img{
+  width: 100%;
+}
+h2{
+	text-align: center;
+}
+h4 {
+	text-align: center;
+}
+
+table {
+width:100%;
+table-layout:fixed;
+}
+
+td {
+word-wrap:break-word;
 }

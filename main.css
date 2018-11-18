@@ -1,29 +1,19 @@
 .footer {
+    overflow: hidden;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: #d9d9d9;
+    color: #0d0d0d;
     text-align: center;
 }
-table {
-width:100%;
-table-layout:fixed;
-}
-
-
-td {
-word-wrap:break-word;
-}
-/* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
 }
 
-/* Style the header links */
 .header a {
   float: left;
   color: black;
@@ -65,4 +55,16 @@ word-wrap:break-word;
   .header-right {
     float: none;
   }
+}
+.paragraph {
+	width: 50%;
+	margin: auto;
+}
+table {
+width:100%;
+table-layout:fixed;
+}
+
+td {
+word-wrap:break-word;
 }
