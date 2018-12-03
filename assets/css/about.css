@@ -78,3 +78,7 @@ table-layout:fixed;
 td {
 word-wrap:break-word;
 }
+
+body{
+  background-color: #A2D9CE;
+}
